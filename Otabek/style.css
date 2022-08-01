@@ -240,3 +240,127 @@ nav ul li {
     line-height: 40px;
     color: #080606;
 }
+
+.end {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30%;
+    background: #FFC59E;
+    align-items: center;
+    height: 1080px;
+}
+
+.end_right img {
+    width: 400px;
+    margin-left: -60%;
+}
+
+.end_right_box {
+    width: 350px;
+    height: 700px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -27%;
+    margin-left: 50px;
+}
+
+.end_right_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.end_right_box img {
+    width: 100px;
+    height: 100px;
+    margin-left: 1px;
+    margin-top: 150px;
+}
+
+.end_right_box input {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 250px;
+    height: 38px;
+    background-color: #ebe3e1;
+    border: none;
+}
+
+.end_right_box button {
+    margin-top: 25px;
+    width: 259px;
+    height: 47px;
+    border-radius: 20px;
+    border: none;
+    background: #FFC59E;
+    color: white;
+    font-size: 17px;
+}
+
+.end_left a {
+    text-decoration: none;
+    font-family: 'Futura New';
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.end_left h1 {
+    font-family: 'SchoolBook';
+    font-size: 50px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.img1 {
+    margin-top: 12px;
+}
+
+.img2 {
+    padding-top: -40px;
+    position: absolute;
+}
+
+.box-right-left {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.google_maps {
+    margin-top: 30%;
+}
+
+.google_maps_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    margin-left: 110px;
+}
+
+.box-right-left i {
+    position: absolute;
+    margin-left: -36px;
+    margin-top: 30px;
+    color: #FFC59E;
+    ;
+}
+
+.box-right-left p {
+    margin-top: 30px;
+}
+
+.google-h1 {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #080606;
+    margin-left: 60px;
+}
