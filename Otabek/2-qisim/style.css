@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1368px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #C3B9B5;
+}
+
+.navigator {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.navigator a {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFC59E;
+    text-decoration: none;
+}
+
+.navigator i {
+    color: #FFC59E;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 160px;
+    align-items: enter;
+}
+
+.left h1 {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110px;
+    color: #080606;
+    margin-top: 30px;
+}
+
+.right{
+    margin-left: 100px;
+}
+
+.right_box {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 255px;
+    height: 255px;
+    background: #7e9cf6;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.box h1 {
+    margin-top: 100px;
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFFF;
+}
+.box2{
+    margin-left: 30px;
+}
+
+.box2 h1 {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #080606;
+}
+
+.box2 a {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #C3B9B5;
+}
+
+.box2 p {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #59443F;
+}
+
+footer {
+    width: 1430px;
+    background: #59443F;
+    height: 469px;
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_img {
+    display: flex;
+    margin-top: -10%;
+    margin-left: 50px;
+    height: 10px;
+    width: 80px;
+}
+
+.footer_img h1 {
+    font-family: 'SchoolBook';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.footer_img p {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 17px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-right {
+    margin-left: 20px;
+}
+
+.footer_box {
+    margin-top: 14%;
+    margin-left: 30px;
+    width: 390px;
+}
+
+.footer_box ul li {
+    margin-top: 10px;
+    list-style: none;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 17px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-end {
+    width: 711px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-end i {
+    margin-top: 20%;
+    margin-left: 60px;
+    color: #FFFFFF;
+}
+
+.footer-end p {
+    margin-top: 90px;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.footer-end h4 {
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.img1 {
+    margin-top: 12px;
+}
+
+.img2 {
+    padding-top: -40px;
+    position: absolute;
+}
